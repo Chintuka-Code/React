@@ -1,7 +1,30 @@
 import React from 'react';
-
+import ReactDom from 'react-dom';
 import Firstcomponents from './First_components';
+import Loop from './Loop';
 import './index.css';
+
+// let data = [
+//     { name: 'sabban', rollno: 14 },
+//     { name: 'sabban', rollno: 14 },
+//     { name: 'sabban', rollno: 14 },
+//     { name: 'sabban', rollno: 14 },
+//     { name: 'sabban', rollno: 14 },
+//     { name: 'sabban', rollno: 14 },
+//   ];
+
+const root = document.querySelector('#root');
+
+ReactDom.render(<Loop />, root);
+
+// Props In react
+
+// ReactDom.render(
+//   <>
+//     <Loop name="sabban" />
+//   </>,
+//   root
+// );
 
 function App() {
   return (
@@ -13,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+// export default App;

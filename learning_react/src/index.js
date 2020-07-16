@@ -23,4 +23,4 @@ const root = document.getElementById('root');
 // );
 
 // Fragment Important
-ReactDom.render(<App />, root);
+// ReactDom.render(<App />, root);
