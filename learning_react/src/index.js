@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import App from './App';
 
 const root = document.getElementById('root');
 // ReactDom.render(<p>hello</p>, root, hello());
@@ -22,9 +23,4 @@ const root = document.getElementById('root');
 // );
 
 // Fragment Important
-ReactDom.render(
-  <React.Fragment>
-    <h1>hello</h1> <h3>Sir</h3>
-  </React.Fragment>,
-  root
-);
+ReactDom.render(<App />, root);
