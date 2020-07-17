@@ -9,6 +9,12 @@ let data = [
   { name: 'sabban', rollno: 142 },
 ];
 
+
+// function Loop(props)
+// {
+// return <><h1>{props.name}</h1></>
+// }
+
 function Loop() {
   return (
     <>

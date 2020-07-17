@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import Firstcomponents from './First_components';
 import Loop from './Loop';
+import States from './components/States';
 import './index.css';
 
 // let data = [
@@ -15,7 +16,8 @@ import './index.css';
 
 const root = document.querySelector('#root');
 
-ReactDom.render(<Loop />, root);
+// ReactDom.render(<Loop />, root);
+ReactDom.render(<States />, root);
 
 // Props In react
 
@@ -26,14 +28,14 @@ ReactDom.render(<Loop />, root);
 //   root
 // );
 
-function App() {
-  return (
-    <>
-      <Firstcomponents />
-      <h1 className="heading">hello</h1>
-      <h3>Sir</h3>
-    </>
-  );
-}
+// function App() {
+//   return (
+//     <>
+//       <Firstcomponents />
+//       <h1 className="heading">hello</h1>
+//       <h3>Sir</h3>
+//     </>
+//   );
+// }
 
 // export default App;

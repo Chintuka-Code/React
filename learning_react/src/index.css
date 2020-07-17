@@ -14,6 +14,7 @@ code {
 
 .heading {
   color: red;
+  cursor: pointer;
 }
 
 * {
