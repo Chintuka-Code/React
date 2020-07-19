@@ -5,8 +5,8 @@ import Loop from './Loop';
 import States from './components/States';
 import './index.css';
 import Classcomponents from './components/classComponents';
-
 import Data from './components/color';
+import Form from './components/form';
 
 // let data = [
 //     { name: 'sabban', rollno: 14 },
@@ -27,6 +27,9 @@ ReactDom.render(
     <Classcomponents name="sabban" />
     <br />
     <Data info=" change class color  compoents" />
+    <br />
+    <br />
+    <Form />
   </>,
   root
 );
