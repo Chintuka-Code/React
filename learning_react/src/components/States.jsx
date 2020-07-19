@@ -9,7 +9,7 @@ const States = () => {
 
   const setnam = () => {
     const name = 'rahul';
-    console.log(info);
+
     setname(name);
     setinfo({ fname: name, lname: 'mehra' });
   };

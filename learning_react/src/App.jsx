@@ -4,6 +4,7 @@ import Firstcomponents from './First_components';
 import Loop from './Loop';
 import States from './components/States';
 import './index.css';
+import Classcomponents from './components/classComponents';
 
 // let data = [
 //     { name: 'sabban', rollno: 14 },
@@ -17,7 +18,14 @@ import './index.css';
 const root = document.querySelector('#root');
 
 // ReactDom.render(<Loop />, root);
-ReactDom.render(<States />, root);
+ReactDom.render(
+  <>
+    <States />
+    <br />
+    <Classcomponents name="sabban" />
+  </>,
+  root
+);
 
 // Props In react
 
