@@ -6,6 +6,8 @@ import States from './components/States';
 import './index.css';
 import Classcomponents from './components/classComponents';
 
+import Data from './components/color';
+
 // let data = [
 //     { name: 'sabban', rollno: 14 },
 //     { name: 'sabban', rollno: 14 },
@@ -23,6 +25,8 @@ ReactDom.render(
     <States />
     <br />
     <Classcomponents name="sabban" />
+    <br />
+    <Data info=" change class color  compoents" />
   </>,
   root
 );
