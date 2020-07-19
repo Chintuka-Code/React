@@ -15,17 +15,23 @@ class data extends Component {
   }
 
   render() {
-    return (
-      <>
-        <h1>{this.props.info}</h1>
-        <h3 style={{ color: `${this.state.color}` }}>
-          Using inline css {this.state.data}
-        </h3>
-        <h3 className={this.state.change}>Unsing css class{this.state.data}</h3>
+    if (true) {
+      return (
+        <>
+          <h1>{this.props.info}</h1>
+          <h3 style={{ color: `${this.state.color}` }}>
+            Using inline css {this.state.data}
+          </h3>
+          <h3 className={this.state.change}>
+            Unsing css class{this.state.data}
+          </h3>
 
-        <button onClick={this.changecolor.bind(this)}>Click</button>
-      </>
-    );
+          <button onClick={this.changecolor.bind(this)}>Click</button>
+        </>
+      );
+    } else {
+      return <h1>Else block</h1>;
+    }
   }
 }
 
